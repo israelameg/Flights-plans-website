@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Flight Simulator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          crossorigin="" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+            integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+            crossorigin=""></script>
+    <style>
+        #mapid {
+            height: 100%;
+            width: 100%;
+        }
+
+        .map {
+            height: 60%;
+            background-color: lightgrey;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        .flightDeatails {
+            height: 30%;
+            background-color: lightgrey;
+            margin-left: 10px;
+            margin-top: 15px;
+            outline: 5px black;
+        }
+        .inner {
+             outline: 5px black;
+             background-color: whitesmoke;
+             height:80%;
+             border: solid black 2px;
+             overflow-y: scroll;
+             text-align:justify; 
+        }
+        .myFlights {
+            height: 45%;
+            background-color: lightgrey;
+            margin-top: 20px;
+            outline: 2px black;
+        }
+
+        .externalFlights {
+            height: 45%;
+            background-color: lightgrey;
+            outline: 2px black;
+        }
+
+        .l {
+            height: 100%;
+        }
+
+        .mm {
+            height: 100%;
+            width: 100%;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            background-image: url('space.jpeg');
+            background-color:black;
+        }
+    </style>
+</head>
+<body >
+    <div class="row mm">
+        <div class="col-sm-8 rounded l">
+            <div class="well map">
+                <div id="mapid"></div>
+                <script>
+                    var map = L.map('mapid').setView([51.505, -0.09], 7);
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    }).addTo(map);
+                </script>
+            </div>
+ 
+            <div class="well flightDeatails">
+                <div class="p-3 mb-2 bg-dark text-white">Flight Deatails:</div>
+                <div class="well inner">
+                    An airplane or aeroplane (informally plane) is a powered, fixed-wing aircraft that is propelled forward by thrust from a jet engine, propeller or rocket engine. Airplanes come in a variety of sizes, shapes, and wing configurations. The broad spectrum of uses for airplanes includes recreation, transportation of goods and people, military, and research. Worldwide, commercial aviation transports more than four billion passengers annually on airliners[1] and transports more than 200 billion tonne-kilometers[2] of cargo annually, which is less than 1% of the world's cargo movement.[3] Most airplanes are flown by a pilot on board the aircraft, but some are designed to be remotely or computer-controlled such as drones.The Wright brothers invented and flew the first airplane in 1903, recognized as "the first sustained and controlled heavier-than-air powered flight".[4] They built on the works of George Cayley dating from 1799, when he set forth the concept of the modern airplane (and later built and flew models and successful passenger-carrying gliders).[5] Between 1867 and 1896, the German pioneer of human aviation Otto Lilienthal also studied heavier-than-air flight. Following its limited use in World War I, aircraft technology continued to develop. Airplanes had a presence in all the major battles of World War II. The first jet aircraft was the German Heinkel He 178 in 1939. The first jet airliner, the de Havilland Comet, was introduced in 1952. The Boeing 707, the first widely successful commercial jet, was in commercial service for more than 50 years, from 1958 to at least 2013.
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="col-sm-4 rounded l">
+            <div class="well myFlights">
+                <div class="p-3 mb-2 bg-dark text-white">My Flights:</div>
+                <div class="well inner"> bla bla bla bla bla bla</div>
+            </div>
+            <div class="well externalFlights">
+                <div class="p-3 mb-2 bg-dark text-white">External Flights:</div>
+                <div class="well inner"> bla bla bla bla bla bla</div>
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>

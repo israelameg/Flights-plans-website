@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Yuval\\Documents\\Bar Ilan\\שנה ב\\advanced programming 2\\ex2\\Done\\FlightControl\\FlightControl\\FlightControlWeb\\FlightControlWeb.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Yuval\\Documents\\Bar Ilan\\שנה ב\\advanced programming 2\\ex2\\Done\\FlightControl\\FlightControl\\FlightControlWeb\\FlightControlWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yuval\\Documents\\Bar Ilan\\שנה ב\\advanced programming 2\\ex2\\Done\\FlightControl\\FlightControl\\FlightControlWeb\\FlightControlWeb.csproj",
+        "projectName": "FlightControlWeb",
+        "projectPath": "C:\\Users\\Yuval\\Documents\\Bar Ilan\\שנה ב\\advanced programming 2\\ex2\\Done\\FlightControl\\FlightControl\\FlightControlWeb\\FlightControlWeb.csproj",
+        "packagesPath": "C:\\Users\\Yuval\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yuval\\Documents\\Bar Ilan\\שנה ב\\advanced programming 2\\ex2\\Done\\FlightControl\\FlightControl\\FlightControlWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Yuval\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "Node.js": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "SQLitePCLRaw.core": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.112.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

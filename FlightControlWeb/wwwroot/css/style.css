@@ -1,0 +1,62 @@
+﻿#mapid {
+    height: 100%;
+    width: 100%;
+}
+
+.map {
+    height: 60%;
+    background-color: lightgrey;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.flightDeatails {
+    height: 30%;
+    background-color: lightgrey;
+    margin-left: 10px;
+    margin-top: 15px;
+    outline: 5px black;
+}
+
+.inner {
+    outline: 5px black;
+    background-color: whitesmoke;
+    height: 80%;
+    border: solid black 2px;
+    overflow-y: scroll;
+    text-align: justify;
+}
+
+.myFlights {
+    height: 45%;
+    background-color: lightgrey;
+    margin-top: 20px;
+    outline: 2px black;
+}
+
+.externalFlights {
+    height: 45%;
+    background-color: lightgrey;
+    outline: 2px black;
+}
+
+.l {
+    height: 100%;
+}
+
+.mm {
+    height: 100%;
+    width: 100%;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url('/design/circle.jpeg');
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: dimgray;
+}
+
