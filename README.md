@@ -7,12 +7,12 @@ Developed by Israela Megira and Yuval Kasner.
 ## Technologies
 * C#
 
-* JAVA SCRIPT
+* JavaScript
 
 * HTML
 
 
-## features
+## Features
 * Getting flight plans from:
   * Servers.
   * JSON files.
