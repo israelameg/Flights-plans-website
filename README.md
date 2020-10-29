@@ -2,7 +2,15 @@
 
 A website that shows and follows all active registered flight plans.
 In order to execute, use the bat file.
-Developed by Yuval Kasner and Israela Megira
+Developed by Israela Megira and Yuval Kasner.
+
+## Technologies
+* C#
+
+* JAVA SCRIPT
+
+* HTML
+
 
 ## features
 * Getting flight plans from:
